@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 // Set the public folder as the static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 // Start the server
 const port = process.env.PORT || 3001;
