@@ -2,14 +2,16 @@
    margin: 8px;
 }
 
+h1,
+table * {
+   font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
 
 table {
    width          : 100%;
    border-collapse: collapse;
    border         : 2px solid black;
-
-   font-family: "Roboto", "Helvetica Neue", sans-serif;
-   font-size  : 16px;
+   font-size      : 16px;
 }
 
 th,
@@ -19,10 +21,6 @@ td {
    text-align: left;
 }
 
-.font-400 {
-   font-weight: 400;
-}
-
-.font-800 {
-   font-weight: 800;
+td {
+   font-stretch: 100%;
 }
